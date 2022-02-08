@@ -19,6 +19,10 @@ function App() {
 
           <p>REACT JUNK_KEY : {process.env.REACT_APP_JUNK_KEY}</p>
           <p>REACT FAKE_SECRET : {process.env.REACT_APP_FAKE_SECRET}</p>
+
+          <hr />
+
+          <p>REACT APP GITHUB SECRET: {process.env.REACT_APP_GITHUB_SECRET}</p>
         </div>
       </header>
     </div>
