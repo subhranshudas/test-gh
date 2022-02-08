@@ -21,7 +21,7 @@ function App() {
 
           <hr />
 
-          <p>REACT APP GITHUB SECRET: {process.env.GITHUB_SECRET}</p>
+          <p>SAMPLE_CHECK_SECRET: {process.env.SAMPLE_CHECK_SECRET}</p>
         </div>
       </header>
     </div>
