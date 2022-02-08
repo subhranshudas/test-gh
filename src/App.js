@@ -1,22 +1,17 @@
-import logo from './logo.svg';
+import 'dotenv/config' 
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Testing Github actions and deployment
+
+        <div>
+          <p>Displaying ENV values: </p>
+          <p>JUNK_KEY : {process.env.JUNK_KEY}</p>
+          <p>FAKE_SECRET : {process.env.FAKE_SECRET}</p>
+        </div>
       </header>
     </div>
   );
