@@ -4,7 +4,6 @@ import './App.css';
 function App() {
 
   console.log("test--> ", process.env);
-  debugger;
 
   return (
     <div className="App">
@@ -22,7 +21,7 @@ function App() {
 
           <hr />
 
-          <p>REACT APP GITHUB SECRET: {process.env.REACT_APP_GITHUB_SECRET}</p>
+          <p>REACT APP GITHUB SECRET: {process.env.GITHUB_SECRET}</p>
         </div>
       </header>
     </div>
